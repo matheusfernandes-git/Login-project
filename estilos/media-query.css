@@ -19,7 +19,8 @@
         padding-bottom: 10px;
     }
     .formulario > p{
-        padding-left: 20px;
+        font-size: 1em;
+        margin: 10px;
     }
 }
 
@@ -39,5 +40,14 @@
         float: right;
         width: 500px;
         height: 40vh;
+    }
+
+    .formulario > h1{
+        font-size: 2em;
+    }
+
+    .formulario > p{
+        font-size: 1.2em;
+        margin: 10px;
     }
 }

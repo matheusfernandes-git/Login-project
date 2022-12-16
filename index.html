@@ -24,22 +24,24 @@
                     Faça login para acessar sua conta e poder
                     fazer as congifurações do seu ambiente. </p>
 
-                <form action="login.js" method="get">
-                    <label for="iemail"><span class="material-symbols-outlined">person</span></label>
-                    <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
+                <form action="login.js" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="email" id="iemail" required placeholder="seu e-mail" autocomplete="email" maxlength="30">
+                        <label for="iemail"></label>
+                    </div>
 
-                    <div>
-                        <label for="isenha"><span id="key" class="material-symbols-outlined">vpn_key</span></label>
-                        <input type="password" name="senha" id="isenha" required placeholder="sua senha">
+                    <div class="campo">
+                        <span id="key" class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" required placeholder="sua senha" autocomplete="current-password" minlength="8" max-length="20">
+                        <label for="isenha"></label>
                     </div>
             
-                    <div class='entrar'>
-                        <input type="submit" value="Entrar">
-                    </div>
-                    
-                    <div class="esqsenha">
-                        <input type="submit" value="Esqueci a senha">
-                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">
+                        Esqueci a senha <span class="material-symbols-outlined">mail</span>
+
+                    </a>
                 </form>
             </div>
         </section>

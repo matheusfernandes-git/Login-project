@@ -47,15 +47,22 @@ main{
 
 .login > .imagem{
     display: block;
-    background: #5f2c92 url('../imagens/fundo.jpg');
+    background: #5f2c92 url('../imagens/fundo.jpg') no-repeat;
     background-size: cover;
     height: 200px;
 }
 
-.login > .formulario{
-    display: block;
-    padding: 10px;
+.formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
 }
+
+.formulario > p{
+    font-size: 0.8em;
+    margin: 10px;
+}
+
+
 
 .entrar{
     display: flex;
