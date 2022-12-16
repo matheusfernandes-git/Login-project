@@ -5,14 +5,17 @@
    }
    .login{
        width: 80vw; 
-       height: 30vh;
+       height: 290px;
    }
     .login > .imagem{
         display: block;
         float: left;
         width: 200px;
-        height: 30vh;
+        height: 36vh;
         background-position: left center;
+    }
+    .formulario{
+        
     }
     .formulario > h1{
         text-align: center;
@@ -22,6 +25,10 @@
         font-size: 1em;
         margin: 10px;
     }
+
+   form > input[type=submit]{
+        width: 477px;
+   }
 }
 
 @media screen and (min-width:992px){
