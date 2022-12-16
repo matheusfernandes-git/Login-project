@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+   body, html{
+    background-image: linear-gradient(to bottom, #5f2c92, #49a09d);
+   }
+   .login{
+       width: 80vw; 
+       height: 30vh;
+   }
+    .login > .imagem{
+        display: block;
+        float: left;
+        width: 200px;
+        height: 30vh;
+        background-position: left center;
+    }
+    .formulario > h1{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .formulario > p{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width:992px){
+    body, html{
+        background-image: linear-gradient(to bottom, #5f2c92, #49a09d);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .login{
+        width: 990px; 
+        height: 40vh;
+    }
+
+    .login > .imagem{
+        background-position: right center;
+        float: right;
+        width: 500px;
+        height: 40vh;
+    }
+}
