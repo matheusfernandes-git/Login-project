@@ -47,7 +47,7 @@
     .login > .imagem{
         background-position: center center;
         float: right;
-        width: 50%;
+        width: 47%;
         height: 100%;
     }
 
@@ -74,12 +74,5 @@
         font-size: 1.1em;
         margin: 10px;
         margin-bottom: 15px;
-    }
-}
-
-@media screen and (min-width: 1280px){
-    .login{
-        width: 1000px; 
-        height: 45vh;
     }
 }
