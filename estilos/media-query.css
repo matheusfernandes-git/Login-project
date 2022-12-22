@@ -1,52 +1,69 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
+    body, html{
+        background-image: linear-gradient(to bottom, #5f2c92, #49a09d);
+    }
 
-   body, html{
-    background-image: linear-gradient(to bottom, #5f2c92, #49a09d);
-   }
-   .login{
-       width: 80vw; 
-       height: 290px;
-   }
+    .login{
+        width: 90vw;
+        height: 35%;
+    }
+
     .login > .imagem{
-        display: block;
         float: left;
-        width: 200px;
-        height: 36vh;
-        background-position: left center;
-    }
-    .formulario{
-        
-    }
-    .formulario > h1{
-        text-align: center;
-        padding-bottom: 10px;
-    }
-    .formulario > p{
-        font-size: 1em;
-        margin: 10px;
+        width: 35%;
+        height: 100%;
     }
 
-   form > input[type=submit]{
-        width: 477px;
-   }
+    .formulario{
+        width: 65%;
+        float: right;
+    }
+
+    .formulario p{
+        font-size: 1em;
+    }
+
+    .formulario h1{
+        font-size: 1.7em;
+    }
+
+    form > .botao{
+        padding: 7px;
+    }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width: 992px){
     body, html{
         background-image: linear-gradient(to bottom, #5f2c92, #49a09d);
         overflow-x: hidden;
         overflow-y: hidden;
     }
+
     .login{
         width: 990px; 
         height: 40vh;
     }
 
     .login > .imagem{
-        background-position: right center;
+        background-position: center center;
         float: right;
-        width: 500px;
-        height: 40vh;
+        width: 50%;
+        height: 100%;
+    }
+
+    form > div.campo{
+        width: 475px;
+    }
+
+    form > input[type= submit]{
+        width: 475px;
+        margin-top: 9px;
+    }
+
+    form > .botao{
+        margin-top: 9px;
+        width: 475px;
+        padding: 7px;
     }
 
     .formulario > h1{
@@ -54,7 +71,8 @@
     }
 
     .formulario > p{
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin: 10px;
+        margin-bottom: 15px;
     }
 }
