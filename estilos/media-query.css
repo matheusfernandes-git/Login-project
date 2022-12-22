@@ -32,12 +32,6 @@
     }
 }
 
-@media screen and (min-width: 912px){
-    .login{
-        height: 25vh;
-    }
-}
-
 @media screen and (min-width: 992px){
     body, html{
         background-image: linear-gradient(to bottom, #5f2c92, #49a09d);
@@ -80,14 +74,6 @@
         font-size: 1.1em;
         margin: 10px;
         margin-bottom: 15px;
-    }
-}
-
-
-@media screen and (min-width: 1024px){
-    .login{
-        width: 1000px; 
-        height: 60vh;
     }
 }
 
